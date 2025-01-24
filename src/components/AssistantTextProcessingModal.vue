@@ -6,7 +6,7 @@
 	<NcModal v-if="show"
 		:size="modalSize"
 		:can-close="false"
-		:name="t('assistant', 'Nextcloud Assistant')"
+		:aria-label="t('assistant', 'Nextcloud Assistant')"
 		class="assistant-modal"
 		@close="onCancel">
 		<div ref="modal_content"
